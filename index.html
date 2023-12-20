@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/CENTREPOINT....jpg"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Interactive rating component</title>
+    <link rel="icon" href="CENTREPOINT....jpg">
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="container">
+      <div class="img">
+        <img src="images/CENTREPOINT....jpg" alt="" />
+      </div>
+
+      <div class="text">
+        <h2>How did we do?</h2>
+
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+      </div>
+
+      <ul>
+        <li><button class="btn-num">1</button></li>
+        <li><button class="btn-num">2</button></li>
+        <li><button class="btn-num">3</button></li>
+        <li><button class="btn-num">4</button></li>
+        <li><button class="btn-num">5</button></li>
+      </ul>
+
+      <button class="submit-btn">Submit</button>
+    </div>
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <div class="container2 hidden">
+      <div class="imgbox">
+        <img src="images/successful .png" alt="" />
+      </div>
+      <div class="rating">
+        <p>You selected <span class="num"></span> out of 5</p>
+      </div>
+
+      <div class="text center">
+        <h2>Thank you!</h2>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+
+    <!-- Thank you state end -->
+
+    <div class="attribution">
+       Coded by <a href=" https://github.com/lasken" >kenny</a>.
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
